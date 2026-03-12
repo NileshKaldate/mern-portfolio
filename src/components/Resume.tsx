@@ -16,10 +16,15 @@ const Resume = () => {
           <div>
             <p className="text-lg font-semibold text-white">Resume</p>
             <p className="mt-2 text-sm text-slate-300">
-              Updated for 2026 with recent full-stack wins and leadership highlights.
+              Updated for 2026 with recent full-stack wins and leadership
+              highlights.
             </p>
           </div>
-          <a className="primary-btn" href="/resume.pdf" download>
+          <a
+            className="primary-btn"
+            href="https://dc-sync.s3.eu-north-1.amazonaws.com/NileshKaldateCV.pdf"
+            download
+          >
             Download Resume
           </a>
         </div>
