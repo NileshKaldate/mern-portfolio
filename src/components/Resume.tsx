@@ -23,7 +23,8 @@ const Resume = () => {
           <a
             className="primary-btn"
             href="https://dc-sync.s3.eu-north-1.amazonaws.com/NileshKaldateCV.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Download Resume
           </a>

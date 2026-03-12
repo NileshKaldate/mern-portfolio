@@ -13,15 +13,23 @@ const Hero = () => {
             </p>
             <h1 className="mt-5 text-4xl font-semibold text-white md:text-5xl lg:text-6xl">
               Nilesh Kaldate
-              <span className="block text-slate-300">Building scalable web products that feel effortless.</span>
+              <span className="block text-slate-300">
+                Building scalable web products that feel effortless.
+              </span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-slate-300">
-              I&apos;m a MERN Stack Developer with 4 years of experience delivering high-performance applications, from
-              polished UIs to secure, scalable backends. I partner with teams to ship fast, reliable, and delightful
-              experiences.
+              I&apos;m a MERN Stack Developer with 4 years of experience
+              delivering high-performance applications, from polished UIs to
+              secure, scalable backends. I partner with teams to ship fast,
+              reliable, and delightful experiences.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
-              <a className="primary-btn" href="/resume.pdf" download>
+              <a
+                className="primary-btn"
+                href="https://dc-sync.s3.eu-north-1.amazonaws.com/NileshKaldateCV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Download Resume
               </a>
               <a className="secondary-btn" href="#contact">
@@ -39,8 +47,12 @@ const Hero = () => {
             <div className="glass rounded-3xl p-8 shadow-glow">
               <div className="space-y-6">
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-brand-400">Current Focus</p>
-                  <p className="mt-2 text-xl font-semibold text-white">Scalable MERN platforms</p>
+                  <p className="text-xs uppercase tracking-[0.2em] text-brand-400">
+                    Current Focus
+                  </p>
+                  <p className="mt-2 text-xl font-semibold text-white">
+                    Scalable MERN platforms
+                  </p>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center justify-between text-sm text-slate-300">
@@ -60,7 +72,8 @@ const Hero = () => {
                 </div>
                 <div className="rounded-2xl border border-slate-800/80 bg-ink-950/80 p-5">
                   <p className="text-sm text-slate-300">
-                    Available for impactful full-time roles and product-driven teams.
+                    Available for impactful full-time roles and product-driven
+                    teams.
                   </p>
                   <a
                     className="mt-4 inline-flex items-center text-sm font-semibold text-brand-400 transition hover:text-brand-300"
