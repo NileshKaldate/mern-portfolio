@@ -1,3 +1,5 @@
+import profilePhoto from "../../public/profilePhoto.png";
+
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
@@ -11,9 +13,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-ink-950/80 backdrop-blur-xl text-left">
       <nav className="section-padding flex h-16 items-center justify-between">
         <div className="flex items-center gap-3 text-white">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-brand-500/20 text-sm font-semibold text-brand-400">
-            NK
-          </span>
+          <img src={profilePhoto} className="h-9 w-9 rounded-full" />
           <div className="leading-tight">
             <p className="text-sm font-semibold">Nilesh Kaldate</p>
             <p className="text-xs text-slate-400">MERN Stack Developer</p>
@@ -39,7 +39,11 @@ const Navbar = () => {
       </nav>
       <div className="section-padding flex items-center gap-4 overflow-x-auto pb-4 text-xs text-slate-400 md:hidden no-scrollbar">
         {navLinks.map((link) => (
-          <a key={link.href} href={link.href} className="whitespace-nowrap transition hover:text-white">
+          <a
+            key={link.href}
+            href={link.href}
+            className="whitespace-nowrap transition hover:text-white"
+          >
             {link.label}
           </a>
         ))}

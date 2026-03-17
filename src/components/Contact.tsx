@@ -128,11 +128,11 @@ const Contact = () => {
             <div className="space-y-3 text-sm text-slate-300">
               <p>
                 <span className="text-slate-400">Email:</span>{" "}
-               nilesh14890@email.com
+                nilesh14890@email.com
               </p>
               <p>
-                <span className="text-slate-400">Location:</span> Pune
-                (Open to remote)
+                <span className="text-slate-400">Location:</span> Pune (Open to
+                remote)
               </p>
             </div>
             <div className="rounded-2xl border border-slate-800/70 bg-ink-950/80 p-5">
@@ -141,7 +141,7 @@ const Contact = () => {
               </p>
               <a
                 className="mt-4 inline-flex text-sm font-semibold text-brand-400"
-                href="mailto:aria.patel@email.com"
+                href="mailto:nilesh14890@email.com"
               >
                 Schedule a chat
               </a>
