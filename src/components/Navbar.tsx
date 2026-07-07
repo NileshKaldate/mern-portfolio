@@ -1,4 +1,4 @@
-import profilePhoto from "../../public/profilePhoto.png";
+import profilePhoto from "../assets/web-app-manifest-512x512.png";
 
 const navLinks = [
   { label: "About", href: "#about" },
