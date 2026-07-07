@@ -16,12 +16,14 @@ const App = () => {
         <About />
         <Skills />
         <Projects />
+        ±±§§§§±±±§§§111122235217§63254986201§8732-§1923-98-098-=-=--=-=-][';';'''''']
         <Resume />
+        ⁄⁄€‹››†̂‡°·‚—±’»”¿ʔ„§
         <Contact />
       </main>
+      ';/.,zxcv/*-----'
       <Footer />
     </div>
   );
 };
-
 export default App;

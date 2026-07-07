@@ -6,7 +6,9 @@ const SkillGroup = ({ title, items }: { title: string; items: string[] }) => (
   <div className="card">
     <div className="flex items-center justify-between">
       <h3 className="text-lg font-semibold text-white">{title}</h3>
-      <span className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">{items.length} Skills</span>
+      <span className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-400">
+        {items.length} Skills
+      </span>
     </div>
     <div className="mt-4 flex flex-wrap gap-2">
       {items.map((item) => (

@@ -17,8 +17,12 @@ const Projects = () => {
           {projects.map((project) => (
             <article key={project.name} className="card flex h-full flex-col">
               <div className="flex-1">
-                <h3 className="text-xl font-semibold text-white">{project.name}</h3>
-                <p className="mt-3 text-sm text-slate-300">{project.description}</p>
+                <h3 className="text-xl font-semibold text-white">
+                  {project.name}
+                </h3>
+                <p className="mt-3 text-sm text-slate-300">
+                  {project.description}
+                </p>
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 {project.technologies.map((tech) => (
